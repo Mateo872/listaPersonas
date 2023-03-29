@@ -1,5 +1,41 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+main section article form {
+    width: 100%;
+}
+
+main section article .container-task {
+    width: 100%;
+}
+
+main section article .container-check {
+    width: 100%;
+    border: 1px solid #dee2e6;
+    border-radius: 0.3rem;
+}
+
+main section article .check {
+    border-bottom: 1px solid #dee2e6;
+    padding: .6rem;
+    border-radius: 0.3rem;
+}
+
+
+
+.input-checkbox,
+i {
+    cursor: pointer;
+}
+
+i:hover {
+    transition: .3s;
+    color: red;
+}
+
+@media (min-width:767px) {
+    main section article form {
+        width: 50%;
+    }
+
+    main section article .container-check {
+        width: 50%;
+    }
 }
